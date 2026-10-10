@@ -1,0 +1,28 @@
+Package: partisanHeads2015
+Type: Project
+Title: Guessing the Backgrounds of Randomly Drawn Partisans
+Version: 0.2.0
+Authors@R: c(
+    person("Douglas J.", "Ahler", role = "aut"),
+    person("Gaurav", "Sood", role = c("aut", "cre"), email = "gsood07@gmail.com")
+  )
+Description: Data preparation, benchmarks, estimation, exhibits and manuscript for
+    a 2013 survey asking partisans to guess the backgrounds of a randomly drawn
+    Democrat and Republican.
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+Imports:
+    digest,
+    dplyr,
+    estimatr,
+    ggplot2,
+    haven,
+    readr,
+    rprojroot,
+    survival,
+    tidyr
+Suggests:
+    lintr,
+    renv,
+    styler,
+    testthat

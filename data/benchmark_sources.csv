@@ -1,0 +1,3 @@
+file,source,download_sha256,extract_sha256
+cces_2012.csv,"CCES 2012 Common Content, doi:10.7910/DVN/HQEVPK, file commoncontent2012.tab; https://dataverse.harvard.edu/api/access/datafile/2456347",0270538cb8b053083e8d3d45ae7e365ca03768fd6e70628a2fbe31d7c5849742,6dfbe7bc3d41fecddc2c60d11a62c12d44464eaed8af389583e354c74f565a45
+gss_2012.csv,"General Social Survey 2012 cross-section, NORC; https://gss.norc.org/content/dam/gss/get-the-data/documents/stata/2012_stata.zip",961151905ec0120b3deed51290b51331147ae17dceee52eb44ffdbe40cd26bd2,ae4de81261e74cf3e3559214268fc3ebea437a460d9361bb9eff6159047856cd

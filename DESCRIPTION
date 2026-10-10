@@ -1,4 +1,5 @@
 Package: partisanHeads2015
+Type: Project
 Title: Guessing the Backgrounds of Randomly Drawn Partisans
 Version: 0.2.0
 Authors@R: c(

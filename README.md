@@ -60,3 +60,7 @@ make check     # analysis, tables, figures, manuscript, lint, tests
 | `docs/instrument.pdf` | The fielded Qualtrics instrument |
 
 The 2015 scripts and Stata files remain in the Git history before this revision.
+
+<!-- adjacent:start -->
+
+<!-- adjacent:end -->

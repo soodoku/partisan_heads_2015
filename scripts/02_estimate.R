@@ -60,7 +60,7 @@ readr::write_csv(sensitivity, table_path("choice_sensitivity.csv"))
 # Rival explanation: projecting one's own characteristics.
 readr::write_csv(projection_effects(scored, survey, respondents), table_path("projection.csv"))
 
-# 3. Randomised order.
+# 3. Randomized order.
 order <- order_effects(scored)
 readr::write_csv(order$pooled, table_path("order_pooled.csv"))
 readr::write_csv(order$by_attribute, table_path("order_by_attribute.csv"))

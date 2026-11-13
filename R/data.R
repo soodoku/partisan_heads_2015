@@ -7,7 +7,7 @@ guess_stems <- c(
   educ = "education", employ = "employment", union = "union"
 )
 
-# Answer options differ in capitalisation between blocks ("College Educated" vs
+# Answer options differ in capitalization between blocks ("College Educated" vs
 # "College educated"); everything is mapped onto the labels in attribute_levels.
 canonical_guess <- function(x) {
   x <- trimws(x)

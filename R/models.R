@@ -39,7 +39,7 @@ score_guesses <- function(guesses, truth) {
 }
 
 # Accuracy: how often a guess would match a randomly drawn partisan. Picking the
-# modal category every time maximises this; drawing guesses in proportion to the
+# modal category every time maximizes this; drawing guesses in proportion to the
 # true shares gives sum(share^2).
 accuracy_summary <- function(scored) {
   scored |>
@@ -211,7 +211,7 @@ projection_effects <- function(scored, survey, respondents) {
     ungroup()
 }
 
-# Randomised order: whether the target was asked about first or second.
+# Randomized order: whether the target was asked about first or second.
 order_effects <- function(scored) {
   per_target <- scored |>
     group_by(respondent_id, target, asked_second) |>
